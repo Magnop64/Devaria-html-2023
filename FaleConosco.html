@@ -15,17 +15,42 @@
             </nav>
         </header>
         <main>
-            <section>
-                <img src="fotos/channels4_profile.jpg" width="500" alt="Imagem devaria."/>
-            </section>
-            <nav>
-                <ul>
-                    <li><a href="https://www.facebook.com/105267928624235/photos/a.138063968677964/150653477419013/?type=3">facebook</a></li>
-                    <li><a href="https://www.instagram.com/devaria_oficial/?hl=pt">Instagran</a></li>
-                    <li><a href="https://www.devaria.com.br/">Plataforma</a></li>
-                    <li><a href="https://br.linkedin.com/company/devaria">Linkedin</a></li>
-                </ul>
-            </nav>
+            <form action="index.html">
+                <p>
+                    <label>Nome:</label><input type="text" name="Nome"/>
+                </p>
+                <p>
+                    <label>E-mail:</label><input type="text" name="email"/>
+                </p>
+                <p>
+                    <label>Comentário</label>
+                    <textarea  cols="50" rows="5"></textarea>
+                </p>
+                <p>
+                    <label>Sexo:</label>
+                    <input type="radio" name="sexo" value="Masculino"/>Masculino
+                    <input type="radio" name="sexo" value="Feminino"/>Feminino
+                </p>
+                <p>
+                    <label>Aonde voçe conheceu a devaria</label>
+                    <select>
+                        <option selected>facebook</option>
+                        <option>Google</option>
+                        <option>Instagran</option>
+                        <option>Facebook</option>
+                        <option>Youtube</option>
+                        <option>Outros</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="checkbox" name="Aceite"/>
+                    <label>aceita receber notificações da devaria via e-mail.</label>
+                </p>
+                <p>
+                    <input type="submit" name="enviar" value="enviar"/>
+                    <input type="reset" name="resetar" value="resetar"/>
+                </p>
+            </form>
         </main>
         <footer>
             <span>contato@devaria.com</span>  <br/>
