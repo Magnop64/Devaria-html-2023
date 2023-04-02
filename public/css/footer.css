@@ -1,0 +1,19 @@
+/* Estilos da pagina footer*/
+
+footer{    
+    border-top: 2px solid #fff;
+}
+
+footer section{
+    text-align: center;
+    padding: 15px;
+}
+
+footer section span:first-child{
+    margin-bottom: 15px;
+    color:#2e1da9;
+}
+
+footer section span:last-child{
+    color:rgb(232, 231, 229);
+}
