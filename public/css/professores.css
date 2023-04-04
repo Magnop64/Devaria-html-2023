@@ -1,0 +1,13 @@
+/* Estilos da pagina de professores*/
+
+main{
+    text-align: center;
+}
+
+main div{
+    margin-top: 30px;
+}
+
+main div img{
+    width:75%;
+}
