@@ -1,0 +1,41 @@
+/* Estilos da pagina de destars*/
+
+main section h2.title{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+main {
+    height: 100%;
+    margin: 0 10px;
+}
+
+
+main section table.tabela {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+main section table.tabela tr th {
+    padding: 10px;
+}
+
+main section table.tabela tr td {
+    padding: 10px;
+}
+
+main section table.tabela tr {
+    text-align: center;
+    border-width: 1px solid black;
+}
+
+
+@media screen and (min-width: 800px) {
+    main section.container-figure figure iframe {
+        display: inline-block;
+        width: auto;
+        position: absolute;
+        right: 15px;
+        top: 25%;
+    }
+}
